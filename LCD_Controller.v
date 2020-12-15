@@ -26,7 +26,7 @@ reg [1:0]    ST;
 reg preStart,mStart;
 
 /////////////////////////////////////////////
-// Only write to LCD, bypass iRS to LCD_RS
+// Asigna los valores de las variables temporales a las variables fijas.
 assign LCD_DATA= iDATA;
 assign LCD_RW= 1'b0;
 assign LCD_RS= iRS;
